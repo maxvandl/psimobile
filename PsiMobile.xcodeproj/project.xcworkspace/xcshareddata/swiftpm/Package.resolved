@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CocoaAsyncSocket",
+        "repositoryURL": "https://github.com/robbiehanson/CocoaAsyncSocket.git",
+        "state": {
+          "branch": null,
+          "revision": "dbdc00669c1ced63b27c3c5f052ee4d28f10150c",
+          "version": "7.6.5"
+        }
+      },
+      {
+        "package": "CocoaLumberjack",
+        "repositoryURL": "https://github.com/CocoaLumberjack/CocoaLumberjack.git",
+        "state": {
+          "branch": null,
+          "revision": "b75d3c3198a2930b4491b04fd47cb504b359c750",
+          "version": "3.10.0"
+        }
+      },
+      {
+        "package": "KissXML",
+        "repositoryURL": "https://github.com/robbiehanson/KissXML.git",
+        "state": {
+          "branch": null,
+          "revision": "990cdef080213b5a3f0d9709b845d553bd3ddb97",
+          "version": "5.3.3"
+        }
+      },
+      {
+        "package": "swift-log",
+        "repositoryURL": "https://github.com/apple/swift-log",
+        "state": {
+          "branch": null,
+          "revision": "c9c6bb9d275ec0d95c3ad16391f3f045dc623104",
+          "version": "1.16.2"
+        }
+      },
+      {
+        "package": "XMPPFramework",
+        "repositoryURL": "https://github.com/robbiehanson/XMPPFramework",
+        "state": {
+          "branch": null,
+          "revision": "7d4dd1f215f18e9db5bbf1739403583c78afb4e7",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

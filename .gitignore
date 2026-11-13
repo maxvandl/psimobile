@@ -1,0 +1,25 @@
+# Сборка
+build/
+.build/
+.swiftpm/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Проект генерируется XcodeGen из project.yml (run.sh делает это сам).
+# Package.resolved оставляем: в нём закреплены версии транзитивных зависимостей.
+PsiMobile.xcodeproj/*
+!PsiMobile.xcodeproj/project.xcworkspace/
+PsiMobile.xcodeproj/project.xcworkspace/*
+!PsiMobile.xcodeproj/project.xcworkspace/xcshareddata/
+PsiMobile.xcodeproj/project.xcworkspace/xcshareddata/*
+!PsiMobile.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+# Собирается локально: ./scripts/build-psipgp.sh (run.sh запускает при отсутствии)
+Frameworks/Psipgp.xcframework/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
